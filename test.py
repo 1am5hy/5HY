@@ -6,3 +6,8 @@ c = np.multiply(a, b)
 print(c)
 
 d = np.matmul(b, a)
+e = c + d
+print(d)
+
+f = e + d
+print(f)
